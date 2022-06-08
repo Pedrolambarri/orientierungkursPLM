@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <!--Favicon-->
+
+    <link rel="icon" href="./img/favicon-32x32.png" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat&family=Roboto:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--CSS Stylesheets-->
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!--Fontawesome-->
+
+    <script
+      src="https://kit.fontawesome.com/3441c0e27d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+  </head>
+
+  <body>
+    <!--NavBar-->
+
+    <div class="bar-position">
+      <ul class="nav-bar">
+        <li>
+          <a href="./index.html"><i class="fa-solid fa-pepper-hot"></i></a>
+        </li>
+
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="./recipes.html">Recipes</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="contact-form">
+      <form action="">
+        <h1>Send us your message!</h1>
+        <label for="fname">Name:</label><br />
+        <input
+          class="enter-name"
+          type="text"
+          id="fname"
+          name="fname"
+          value=""
+        /><br />
+        <label for="lname">Email:</label><br />
+        <input
+          class="enter-name"
+          type="text"
+          id="lname"
+          name="lname"
+          value=""
+        /><br /><br />
+
+        <textarea name="message" class="textarea"> </textarea>
+        <button class="button"><p>SEND</p></button>
+      </form>
+
+      <div class="form-join">
+        <div class="join-text">
+          <i class="fa-duotone fa-taco"></i>
+          <p>"Join our blog and get new recipes every week!"</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="white-section" id="footer">
+      <div class="footer-container">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+      </div>
+      <p class="last-paragraph">© Copyright 2022 WorldWide Frijoleros</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,356 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+ h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-family:'Dancing Script', cursive; ;
+    font-size:50px;
+    color:#354259;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: block;
+    padding-top: 20px;
+}
+
+img:hover{
+    opacity: 0.5;
+}
+
+
+
+/*This is the navigation bar*/
+
+
+
+.nav-bar {
+ display: flex;   
+ list-style-type: none;
+ background-color: #354259;
+ width: 100%;
+ height: 50px;
+ margin-top: 0;
+ justify-content: space-between; 
+ align-items: center;
+ flex-wrap: wrap;
+ margin-bottom: 0;
+}
+
+
+.nav-bar li a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding-right: 20px;
+    margin-right: 100px;
+     
+}
+
+.nav-bar li a:hover {
+    color:#F47C7C; 
+
+}
+
+.nav-bar li i:hover {
+    color:#4E944F;
+}
+
+.fa-solid {
+    color:#F24C4C;
+    font-size: 30px;
+    }
+
+
+/*First section with 2 boxes, one with text and the other with an image*/
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 50vh;
+    margin-right: 0;
+    font-size: 16px;
+  }
+
+  .first-text-box {
+    width: 400px;
+    height: 200px;
+    border: 2px solid #354259;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 6px;
+    display: flex;
+}
+
+.azteca-chocolate {
+    border: 2px solid white;
+    color: white;
+}
+
+
+
+  .chocolate {
+      background-color:#354259 ;
+      color: white;
+      
+  }
+
+  .vainilla {
+      background-color: #C2DED1;
+      color:#2F8F9D ;
+      font-size: 18px;
+  }
+
+  .tomates {
+      background-color: #C2DED1;
+      color:#2F8F9D;
+      font-size: 18px;
+  }
+
+  .aguacate {
+      background-color: white;
+  }
+
+  .tequila {
+      background-color: white;
+  }
+
+
+.first-text-box p {
+    text-align: justify;
+    padding: 10px;
+}
+
+
+
+  .second-box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 50vh;
+    background-color: #354259;
+    width: 100%;
+    margin-right: 0;
+
+  }
+
+  
+
+  /*Top 5 list boxes */
+
+  .top-list-text {
+    width: 400px;
+    height: 200px;
+    border: 2px solid #354259;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 6px;
+    display: flex;
+}
+
+.chocolate-box {
+    border: 2px solid white;
+}
+
+.vainilla-box {
+    border: 2px solid white;
+}
+
+.tomate-box {
+    border: 2px solid white;
+}
+
+.second-top-list img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: block;
+    padding-top: 20px;
+}
+
+.top-list-text p {
+    text-align: justify;
+    padding: 10px;
+}
+
+
+/*Classes for each Image Round box*/
+
+.round-box {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 5px solid #354259;
+    position: relative;
+    border-radius: 250px;
+    background-color: #F47C7C;
+}
+
+.aztecar {
+    background-color:black;
+    border: 5px solid white; 
+}
+
+.chocolater {
+    background-color:#C2DED1;
+    border: 5px solid white; 
+}
+
+.vainillar {
+    background-color:white;
+}
+
+.tomatesr {
+    background-color:white;
+}
+
+.aguacater {
+    background-color:#809A6F;
+}
+
+.tequilar {
+    background-color:#C2DED1;
+}
+
+/*Images withs Links*/
+
+.img-chocolate:hover {
+opacity:0.5;
+}
+
+/*FORM*/
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    background-color:#F9F3EE;
+    padding: 0 10px 40px;
+
+}
+
+.textarea {
+    width: 400px;
+    height: 200px;
+    border-radius: 6px;
+}
+
+.enter-name {
+    width: 400px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.form-join {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color:#354259 ;
+
+}
+
+button {
+    display: flex;
+    margin: 5px 0;
+    padding-left: 180px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    background-color: #354259;
+    width: 405px;
+    height: 40px;
+    flex-direction: column;
+}
+
+
+
+.button:hover {
+    background-color:beige;
+}
+
+
+/*Recipe Syles*/
+
+.recipes-box {
+    display: flex;
+    background-color:#F9F3EE;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    padding: 100px;
+    flex-direction: column;
+    line-height: 1cm;
+}
+
+.img-frijoles {
+    display: flex;
+    border-radius: 300px;
+
+}
+
+.fa-thin {
+    font-size: 30px;
+}
+
+/* Footer Section */
+
+
+.footer-container {
+    display: flex;   
+    color:white;
+    background-color:#354259;
+    width: 100%;
+    height: 100px;
+    margin-top: 0;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.last-paragraph {
+text-align: center;
+
+}
+
+.social-icon {
+    margin: 20px 10px;
+  }
+
+  .white-section a {
+   color: white;
+  }
+
+  .white-section a:hover {
+      color:#F47C7C;
+  }
+
+
+  
+  
+  
+   
+  
+
+
+
+
+
